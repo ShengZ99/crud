@@ -1,1 +1,11 @@
 # crud
+- First you will need to download the zip file
+- Extract the zip file
+- Open cmd and locate to the project folder
+- Run composer install
+- Rename .env.example to .env
+- Make sure that DB_CONNECTION is mysql, DB_PORT is 3306, DB_DATABASE is crud
+- Run php artisan migrate using cmd
+- Run php artisan key:generate
+- Run php artisan storage:link
+- Run php artisan serve to run the project
